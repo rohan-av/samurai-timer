@@ -155,7 +155,7 @@ function TimerWrapper(props) {
           reset,
           timerState,
           setTime,
-          setCheckpoints
+          setCheckpoints,
         }) => {
           setCheckpoints([
             {
@@ -172,13 +172,13 @@ function TimerWrapper(props) {
                   turn++;
                   playerPointer++;
                 }
-              }
-            }
+              },
+            },
           ]);
           return (
             <React.Fragment>
               <KeyboardEventHandler
-                handleKeys={["n"]}
+                handleKeys={["space", "n"]}
                 onKeyEvent={() => {
                   reset();
                   incrementPointer();
