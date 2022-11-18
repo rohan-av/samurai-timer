@@ -9,7 +9,7 @@
     "react-compound-timer": "^1.1.5",
     "react-dom": "^16.13.1",
     "react-keyboard-event-handler": "^1.5.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
